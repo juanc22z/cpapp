@@ -8,9 +8,9 @@ using {sap.ui.riskmanagement as my} from '../db/schema';
 //   entity Mitigations as projection on my.Mitigations;
 //     annotate Mitigations with @odata.draft.enabled;
 // }
-// ************************************************************************************
+// *************************************************************************************
 // Add the following restrictions block (@(...)) to your Risks and Mitigations entities
-// ************************************************************************************
+// *************************************************************************************
 service RiskService {
     entity Risks @(restrict : [
         {
